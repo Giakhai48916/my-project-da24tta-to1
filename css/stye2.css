@@ -1,0 +1,19 @@
+﻿*{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.login{
+	background-color: rgba(36, 15, 153, 0.705);
+	margin: auto;
+	padding: 20px;
+}
+h3{
+	color: rgba(0, 0, 0, 0.733);
+	text-align: center;
+}
+label{
+	color: #ffffffe8;
+}
+form{
+	padding: 20px;
+	background-color: rgb(123, 123, 231);
+}
