@@ -9,12 +9,13 @@
 		<div class="contener">
 			<input type="button" value="thêm" onclick="add()">
 		</div>
-		<div class="row"></div>
 		<script>
 			function add(){
 				const myr = document.createElement("div");
 				myr.setAttribute("class","row");
-				const myfun = document.createTextNode("myr.appendchild(myfun);hehe");
+				const myfun = document.createTextNode("Hehe");
+				myr.appendChild(myfun);
+				document.body.appendChild(myr);
 			}
 		</script>
 	</body>
