@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "vi">
+	<head>
+		<title>bảng cửu chương</title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" href="../css/style7.css">
+	</head>
+	<body>
+		<script>
+			const MyDiv = document.createElement("div");
+			MyDiv.setAttribute("class","product-item");
+
+			const MyDiv1 = document.createElement("div");
+			MyDiv1.setAttribute("class","product-image");
+			const img = document.createElement("img");
+			img.setAttribute("src","../assets/images/hoa.jpg");
+			img.setAttribute("alt","hoa hong minecraft");
+			MyDiv1.appendChild(img);
+			MyDiv.appendChild(MyDiv1);
+
+			const MyDiv2 = document.createElement("div");
+			MyDiv2.setAttribute("class","product-info");
+			const para = document.createElement("p");
+			const textp = document.createTextNode("hoa hong ne");
+			para.appendChild(textp);
+			MyDiv2.appendChild(para);
+
+			const para1 = document.createElement("p");
+			const textp1 = document.createTextNode("gia 2 diamond");
+			para1.appendChild(textp1);
+			MyDiv2.appendChild(para1);
+
+			const lk = document.createElement("a");
+			lk.setAttribute("href","#");
+			const textlink = document.createTextNode("link ne");
+			lk.appendChild(textlink);
+			MyDiv2.appendChild(lk);
+			MyDiv.appendChild(MyDiv2);
+
+			document.body.appendChild(MyDiv);
+		</script>
+		<div href="../js/lib.js" id="list">
+		<button onclick="add()">them hoa</button>
+		</div>
+	</body>
+</html>
