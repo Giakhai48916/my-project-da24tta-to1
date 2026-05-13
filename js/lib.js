@@ -20,3 +20,4 @@
 
     document.body.appendChild(Divboss);
 }
+}
